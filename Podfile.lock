@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DocumentClassifier (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.2)
+  - DocumentClassifier (= 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DocumentClassifier
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DocumentClassifier: 882774b0317bf8db92c9fa971a48716bea6b73f0
+
+PODFILE CHECKSUM: 7779fecb426470777be3759e695466c4f1ac00f0
+
+COCOAPODS: 1.6.1
