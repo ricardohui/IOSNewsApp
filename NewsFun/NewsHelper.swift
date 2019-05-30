@@ -10,8 +10,8 @@ import Foundation
 import Alamofire
 import DocumentClassifier
 class NewsHelper{
-    
-    func getArticles(){
+    // use escaping closure here because we dont know when the async operation will finish.
+    func getArticles(returnArticles: @escaping ([Article] )-> Void){
         Alamofire.request("https://newsapi.org/v2/top-headlines?country=us&apiKey=7bda0004bed94053b1cfbc6442f45105").responseJSON { (response) in
             print(response)
             if let json = response.result.value as? [String: Any]{
@@ -32,6 +32,7 @@ class NewsHelper{
                         article.category = classification.prediction.category.rawValue
                         articles.append(article)
                     }
+                    returnArticles(articles)
                 }
             }
         }
