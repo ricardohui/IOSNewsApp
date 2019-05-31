@@ -15,6 +15,7 @@
 		A71A91CE229F483A005F2EBB /* NewsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A91CD229F483A005F2EBB /* NewsHelper.swift */; };
 		A71A91D0229F4938005F2EBB /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A91CF229F4938005F2EBB /* ArticleTableViewController.swift */; };
 		A71A91D2229F4967005F2EBB /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A91D1229F4967005F2EBB /* ArticleWebViewController.swift */; };
+		A71A91D422A0A408005F2EBB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71A91D322A0A408005F2EBB /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A71A91CD229F483A005F2EBB /* NewsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHelper.swift; sourceTree = "<group>"; };
 		A71A91CF229F4938005F2EBB /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		A71A91D1229F4967005F2EBB /* ArticleWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebViewController.swift; sourceTree = "<group>"; };
+		A71A91D322A0A408005F2EBB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71A91D422A0A408005F2EBB /* WebKit.framework in Frameworks */,
 				228694A807B89CC2CDC1F4A1 /* Pods_NewsFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +50,7 @@
 		01CE6D6F36292BB00D68FD01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A71A91D322A0A408005F2EBB /* WebKit.framework */,
 				4BC17F833FA24B542B5E3472 /* Pods_NewsFun.framework */,
 			);
 			name = Frameworks;
